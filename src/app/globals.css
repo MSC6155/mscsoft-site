@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4;
+}
+
+.card {
+  border-radius: 1.5rem;
+  border: 1px solid #E5E7EB;     /* açık gri border */
+  background: #F3F4F6;           /* açık gri zemin */
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+.card:hover {
+  background: #FFFFFF;           /* hover’da beyazlaşır (premium) */
+  transition: all 0.2s ease;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 text-sm font-semibold transition hover:opacity-90;
+}
+
+.btn-primary {
+  @apply bg-brand-navy text-white;
+}
+
+.btn-accent {
+  @apply bg-brand-orange text-white;
+}
+
+.btn-outline {
+  border: 1px solid #1E3A8A; /* blue-900 */
+  color: #1E3A8A;
+}
+.btn-outline:hover {
+  background: #1E3A8A;
+  color: #fff;
+}
