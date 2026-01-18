@@ -23,7 +23,8 @@ export default function CalendlyPopupButton({
         url={SITE.calendlyUrl}
         open={open}
         onModalClose={() => setOpen(false)}
-        rootElement={typeof document !== "undefined" ? document.body : undefined}
+        rootElement={document.body}
+        // rootElement={typeof document !== "undefined" ? document.body : undefined}
       />
     </>
   );
