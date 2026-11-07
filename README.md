@@ -7,7 +7,7 @@ Modern, minimal, premium corporate website starter for **mscsoft.com.tr**.
 - Tailwind CSS
 - TR/EN routing via `/tr` and `/en`
 - **Calendly popup** for "Toplantı Planla / Schedule a Meeting"
-- **Quote form -> WhatsApp redirect** (pre-filled message)
+- **Quote form -> WhatsApp redirect** (pre-filled message)r
 - Click-to-call + email links
 
 ## Quick start
